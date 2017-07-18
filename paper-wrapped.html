@@ -1,0 +1,16 @@
+<dom-module id="paper-wrapped">
+  <template>
+    <paper-textarea value="{{value}}"></paper-textarea>
+  </template>
+  <script>
+    Polymer({
+      is: 'paper-wrapped',
+      properties: {
+        value: {
+          type: String,
+          notify: true      
+       }
+      }
+    });
+  </script>
+</dom-module>
